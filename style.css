@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+  height: 100%;
+  background-color: red;
+    color: white;
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        background-color: green;
+    }
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: dodgerblue;
+    text-align: left;
+    padding-top: 5px;
+    position: fixed;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+a:hover{
+    text-decoration: bold;
+    font-size: 23px;
+    color: palegreen;
+}
+div{
+    padding-top: 20px;
+}
+h1{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.img1{
+    height: 200px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img2{
+    height: 200px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img3 {
+    height: 200px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img4{
+    height: 200px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
